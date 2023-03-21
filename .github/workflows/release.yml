@@ -11,6 +11,9 @@ on:
       - '**.md'
       - '.**'
 
+permissions:
+  packages: write
+
 jobs:
   release:
     name: Release
